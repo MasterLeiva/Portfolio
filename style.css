@@ -8,12 +8,13 @@
 
 body {
   margin: 0;
+  background-color: #fff;
 }
 
 /* Navbar Design */
 header {
   display: flex;
-  position: sticky;
+  position: fixed;
   background-color: var(--grey);
   width: 100%;
   justify-content: space-between;
@@ -89,6 +90,66 @@ nav {
 
 #menu:checked ~ .hamburger {
   z-index: 1;
+}
+
+/* Headline Design*/
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  background: var(--black);
+  height: 90vh;
+  justify-content: center;
+  padding: 0 6.5vw 0 6.5vw;
+  background-image: url("img/illustration.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 110%;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 3.8em;
+  font-weight: 400;
+  color: var(--orange);
+  margin: 6px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 6px;
+  font-size: 1.6em;
+  font-weight: 700;
+  color: #fff5e1;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 6px;
+  color: #fff;
+}
+
+/* Social Media Icons*/
+.social-links {
+  display: flex;
+  margin: 6px;
+  width: 50vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.social-links a {
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
 }
 
 /*  Desktop code previously made by mistake. (can be useful later)
