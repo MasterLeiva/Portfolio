@@ -30,6 +30,10 @@ header .logo {
   color: white;
 }
 
+header .logo a {
+  cursor: pointer;
+}
+
 nav {
   height: 100%;
 }
@@ -103,6 +107,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  list-style: none;
 }
 
 .social-links a {
