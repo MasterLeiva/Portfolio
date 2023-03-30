@@ -1,4 +1,4 @@
-/* General CSS rules*/
+/* General CSS rules */
 :root {
   --black: #1c1a19;
   --white: #e5e5e5;
@@ -54,45 +54,7 @@ nav {
   display: none;
 }
 
-/* Pop up window */
-.links {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  width: calc(100% - 40px);
-  height: calc(100% - 8vh);
-  background: #3c3a39;
-  list-style: none;
-  left: -100%;
-  top: 8vh;
-  padding: 20px;
-  margin: 0;
-  transition: all 0.5s;
-}
-
-.links li {
-  border-bottom: 1px solid #6f6c6b;
-  padding: 24px 0 15px 20px;
-}
-
-.links li a {
-  text-decoration: none;
-  color: #fff5e1;
-  font-size: 32px;
-  font-weight: 700;
-  font-family: 'Inter', sans-serif;
-}
-
-/* Checkbox Function*/
-#menu:checked ~ ul {
-  left: 0;
-}
-
-#menu:checked ~ .hamburger {
-  z-index: 1;
-}
-
-/* Headline Design*/
+/* Headline Design */
 
 .headline {
   display: flex;
@@ -133,7 +95,7 @@ p {
   color: #fff;
 }
 
-/* Social Media Icons*/
+/* Social Media Icons */
 .social-links {
   display: flex;
   margin: 6px;
@@ -150,6 +112,44 @@ p {
 .icon {
   width: 24px;
   height: 24px;
+}
+
+/* Pop up window */
+.links {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px);
+  height: calc(100% - 8vh);
+  background: #3c3a39;
+  list-style: none;
+  left: -100%;
+  top: 8vh;
+  padding: 20px;
+  margin: 0;
+  transition: all 0.5s;
+}
+
+.links li {
+  border-bottom: 1px solid #6f6c6b;
+  padding: 24px 0 15px 20px;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #fff5e1;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Checkbox Function */
+#menu:checked ~ ul {
+  left: 0;
+}
+
+#menu:checked ~ .hamburger {
+  z-index: 1;
 }
 
 /*  Desktop code previously made by mistake. (can be useful later)
