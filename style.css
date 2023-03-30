@@ -30,10 +30,6 @@ nav {
   height: 100%;
 }
 
-.links {
-  display: none;
-}
-
 .hamburger {
   display: block;
   cursor: pointer;
@@ -52,13 +48,13 @@ nav {
   display: none;
 }
 
-.links{
+.links {
   position: fixed;
   display: flex;
   flex-direction: column;
   width: calc(100% - 40px);
   height: calc(100% - 8vh);
-  background: #3C3A39;
+  background: #3c3a39;
   list-style: none;
   left: -100%;
   top: 8vh;
@@ -68,26 +64,25 @@ nav {
 }
 
 .links li {
-  border-bottom: 1px solid #6F6C6B;
+  border-bottom: 1px solid #6f6c6b;
   padding: 24px 0 15px 20px;
 }
 
 .links li a {
   text-decoration: none;
-  color: #FFF5E1;
+  color: #fff5e1;
   font-size: 32px;
   font-weight: 700;
   font-family: 'Inter', sans-serif;
 }
 
-#menu:checked ~ Ul {
+#menu:checked ~ ul {
   left: 0;
 }
 
-#menu:checked ~ .hamburger{
+#menu:checked ~ .hamburger {
   z-index: 1;
 }
-
 
 /*  Desktop code
 
