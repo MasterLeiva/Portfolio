@@ -60,7 +60,7 @@ nav {
   top: 8vh;
   padding: 20px;
   margin: 0;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .links li {
