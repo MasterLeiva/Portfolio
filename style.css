@@ -30,7 +30,7 @@ header .logo {
   color: white;
 }
 
-header .logo a {
+a {
   cursor: pointer;
 }
 
@@ -108,10 +108,6 @@ p {
   align-items: center;
   padding: 10px;
   list-style: none;
-}
-
-.social-links a {
-  cursor: pointer;
 }
 
 .icon {
