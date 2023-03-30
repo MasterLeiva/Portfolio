@@ -1,3 +1,4 @@
+/* General CSS rules */
 :root {
   --black: #1c1a19;
   --white: #e5e5e5;
@@ -7,10 +8,13 @@
 
 body {
   margin: 0;
+  background-color: #fff;
 }
 
+/* Navbar Design */
 header {
   display: flex;
+  position: fixed;
   background-color: var(--grey);
   width: 100%;
   justify-content: space-between;
@@ -30,6 +34,7 @@ nav {
   height: 100%;
 }
 
+/* Menu bar design */
 .hamburger {
   display: block;
   cursor: pointer;
@@ -38,7 +43,7 @@ nav {
 }
 
 .line {
-  width: 8vw;
+  width: 6vw;
   height: 3px;
   background: white;
   margin: 5px;
@@ -49,6 +54,67 @@ nav {
   display: none;
 }
 
+/* Headline Design */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  background: var(--black);
+  height: 90vh;
+  justify-content: center;
+  padding: 0 6.5vw 0 6.5vw;
+  background-image: url("img/illustration.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 110%;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 3.8em;
+  font-weight: 400;
+  color: var(--orange);
+  margin: 6px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 6px;
+  font-size: 1.6em;
+  font-weight: 700;
+  color: #fff5e1;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 6px;
+  color: #fff;
+}
+
+/* Social Media Icons */
+.social-links {
+  display: flex;
+  margin: 6px;
+  width: 50vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.social-links a {
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Pop up window */
 .links {
   position: fixed;
   display: flex;
@@ -77,6 +143,7 @@ nav {
   font-family: 'Inter', sans-serif;
 }
 
+/* Checkbox Function */
 #menu:checked ~ ul {
   left: 0;
 }
@@ -85,7 +152,7 @@ nav {
   z-index: 1;
 }
 
-/*  Desktop code
+/*  Desktop code previously made by mistake. (can be useful later)
 
 .links {
   display: flex;
