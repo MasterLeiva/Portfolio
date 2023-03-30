@@ -1,0 +1,169 @@
+/* General CSS rules */
+:root {
+  --black: #1c1a19;
+  --white: #e5e5e5;
+  --orange: #f55800;
+  --grey: #3e3c3c;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+/* Navbar Design */
+header {
+  display: flex;
+  position: fixed;
+  background-color: var(--grey);
+  width: 100%;
+  justify-content: space-between;
+  height: 8vh;
+  align-items: center;
+}
+
+header .logo {
+  margin: 0 8vw;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+a {
+  cursor: pointer;
+}
+
+nav {
+  height: 100%;
+}
+
+/* Menu bar design */
+.hamburger {
+  display: block;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 2.4vh;
+}
+
+.line {
+  width: 6vw;
+  height: 3px;
+  background: white;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+#menu {
+  display: none;
+}
+
+/* Headline Design */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  background: var(--black);
+  height: 90vh;
+  justify-content: center;
+  padding: 0 6.5vw 0 6.5vw;
+  background-image: url("img/Illustration.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 110%;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 3.8em;
+  font-weight: 400;
+  color: var(--orange);
+  margin: 6px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 6px;
+  font-size: 1.6em;
+  font-weight: 700;
+  color: #fff5e1;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 6px;
+  color: #fff;
+}
+
+/* Social Media Icons */
+.social-links {
+  display: flex;
+  margin: 6px;
+  width: 50vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Pop up window */
+.links {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px);
+  height: calc(100% - 8vh);
+  background: #3c3a39;
+  list-style: none;
+  left: -100%;
+  top: 8vh;
+  padding: 20px;
+  margin: 0;
+  transition: all 0.5s;
+}
+
+.links li {
+  border-bottom: 1px solid #6f6c6b;
+  padding: 24px 0 15px 20px;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #fff5e1;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Checkbox Function */
+#menu:checked ~ ul {
+  left: 0;
+}
+
+#menu:checked ~ .hamburger {
+  z-index: 1;
+}
+
+/*  Desktop code previously made by mistake. (can be useful later)
+
+.links {
+  display: flex;
+  list-style: none;
+  width: 30vw;
+  height: 100%;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+*/

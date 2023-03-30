@@ -50,7 +50,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Basic HTML & CSS repository using GitHub.
+> Basic HTML & CSS portfolio using GitHub.
 
 - **Linter Usage**
 - **GitHub Workflow**
@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://htmlpreview.github.io/?https://github.com/MasterLeiva/Hello-Microverse/blob/My-Feature/website.html)
+- [Live Demo Link](https://htmlpreview.github.io/?https://github.com/MasterLeiva/Portfolio/blob/mobile-first/portfolio.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,8 +112,8 @@ N/A
 ## 🔭 Future Features <a name="future-features"></a>
 
 > More coming soon:
-- [ ] **Portfolio Structure**
-- [ ] **CSS Flexbox**
+- [ ] **Desktop Support**
+- [ ] **CSS Grid**
 - [ ] **Javascript Integration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
