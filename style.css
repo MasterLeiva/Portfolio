@@ -115,35 +115,6 @@ nav {
   height: 24px;
 }
 
-/* Pop up window */
-.links {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  width: calc(100% - 40px);
-  height: calc(100% - 8vh);
-  background: #3c3a39;
-  list-style: none;
-  left: -100%;
-  top: 8vh;
-  padding: 20px;
-  margin: 0;
-  transition: all 0.5s;
-}
-
-.links li {
-  border-bottom: 1px solid #6f6c6b;
-  padding: 24px 0 15px 20px;
-}
-
-.links li a {
-  text-decoration: none;
-  color: #fff5e1;
-  font-size: 32px;
-  font-weight: 700;
-  font-family: 'Inter', sans-serif;
-}
-
 /* Checkbox Function */
 #menu:checked ~ ul {
   left: 0;
@@ -208,7 +179,7 @@ nav {
 
 .features-main {
   padding: 10px 12px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   margin: 12px 0;
 }
 
@@ -267,7 +238,7 @@ nav {
 .features {
   padding: 10px 12px;
   margin-right: 12px;
-  background: rgba(255, 255, 255, 0.24)
+  background: rgba(255, 255, 255, 0.24);
 }
 
 .features a {
@@ -293,6 +264,35 @@ nav {
   line-height: 24px;
   letter-spacing: 3%;
   color: white;
+}
+
+/* Pop up window */
+.links {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px);
+  height: calc(100% - 8vh);
+  background: #3c3a39;
+  list-style: none;
+  left: -100%;
+  top: 8vh;
+  padding: 20px;
+  margin: 0;
+  transition: all 0.5s;
+}
+
+.links li {
+  border-bottom: 1px solid #6f6c6b;
+  padding: 24px 0 15px 20px;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #fff5e1;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
 }
 
 /*  Desktop code previously made by mistake. (can be useful later)
