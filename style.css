@@ -280,31 +280,6 @@ nav {
   color: white;
 }
 
-/* Button Functions Projects */
-.features:hover {
-  background: rgba(255, 255, 255, 0.12);
-}
-
-.features:active {
-  background: rgba(255, 255, 255, 0.30);
-}
-
-.button-projects:hover {
-  background: #fef6e3;
-}
-
-.button-projects:hover > a {
-  color: var(--orange);
-}
-
-.button-projects:active {
-  background: #e05304;
-}
-
-.button-projects:active > a {
-  color: #f4f1f0;
-}
-
 /* About me Section */
 .about-myself {
   display: flex;
@@ -414,23 +389,6 @@ nav {
   color: white;
 }
 
-/* Button Function About Me */
-.button-about-me:hover {
-  background: #fef6e3;
-}
-
-.button-about-me:hover > a {
-  color: var(--orange);
-}
-
-.button-about-me:active {
-  background: #e05304;
-}
-
-.button-about-me:active > a {
-  color: #f4f1f0;
-}
-
 /* Checkbox Function */
 #menu:checked ~ ul {
   left: 0;
@@ -467,6 +425,48 @@ nav {
   font-size: 32px;
   font-weight: 700;
   font-family: 'Inter', sans-serif;
+}
+
+/* Button Functions Projects */
+.features:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.features:active {
+  background: rgba(255, 255, 255, 0.30);
+}
+
+.button-projects:hover {
+  background: #fef6e3;
+}
+
+.button-projects:hover > a {
+  color: var(--orange);
+}
+
+.button-projects:active {
+  background: #e05304;
+}
+
+.button-projects:active > a {
+  color: #f4f1f0;
+}
+
+/* Button Function About Me */
+.button-about-me:hover {
+  background: #fef6e3;
+}
+
+.button-about-me:hover > a {
+  color: var(--orange);
+}
+
+.button-about-me:active {
+  background: #e05304;
+}
+
+.button-about-me:active > a {
+  color: #f4f1f0;
 }
 
 /*  Desktop code previously made by mistake. (can be useful later)
