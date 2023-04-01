@@ -64,7 +64,7 @@ nav {
   display: flex;
   flex-direction: column;
   background: var(--black);
-  height: 90vh;
+  height: 95vh;
   justify-content: center;
   padding: 0 6.5vw 0 6.5vw;
   background-image: url("img/Illustration.png");
@@ -73,7 +73,7 @@ nav {
   background-position-y: 110%;
 }
 
-h1 {
+.headline h1 {
   font-family: 'Crete Round', serif;
   font-size: 3.8em;
   font-weight: 400;
@@ -81,7 +81,7 @@ h1 {
   margin: 6px;
 }
 
-h2 {
+.headline h2 {
   font-family: 'Roboto', sans-serif;
   margin: 6px;
   font-size: 1.6em;
@@ -89,7 +89,7 @@ h2 {
   color: #fff5e1;
 }
 
-p {
+.headline p {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -113,6 +113,268 @@ p {
 .icon {
   width: 24px;
   height: 24px;
+}
+
+/* Work Section */
+.work-section {
+  display: grid;
+  padding: 12vh 6.5vw 12vh 6.5vw;
+  row-gap: 24px;
+}
+
+.work-section h1 {
+  font-family: 'Crete Round', serif;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 400;
+  line-height: 52px;
+  margin: 3vh 0;
+}
+
+.separator {
+  background: black;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 9vh;
+}
+
+/* Work Section - Main Project */
+#main-project-img {
+  margin-bottom: 24px;
+}
+
+.main-project h2 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  line-height: 44px;
+  font-size: 2.1em;
+  margin: 12px 0;
+}
+
+.main-project p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
+.main-project-features {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.features-main {
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  margin: 12px 0;
+}
+
+.button-main-project {
+  display: flex;
+  width: 33vw;
+  height: 6.3vh;
+  background: var(--orange);
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--orange);
+}
+
+.button-main-project a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  size: 1.1em;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: white;
+}
+
+/* Work Section - projects */
+.projects {
+  background-image: url(img/projects-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 386;
+}
+
+.projects h3 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 44px;
+  color: white;
+  margin: 72px 0 12px 13px;
+}
+
+.projects p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  size: 1em;
+  line-height: 24px;
+  margin: 0 0 14px 13px;
+  color: white;
+}
+
+.project-features {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px 13px;
+}
+
+.features {
+  padding: 10px 12px;
+  margin-right: 12px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.features a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.05em;
+  line-height: 20px;
+  color: white;
+}
+
+.button-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  background: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.button-projects a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: white;
+}
+
+/* About me Section */
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  background: var(--black);
+  padding: 110px 6.5vw 85px 6.5vw;
+}
+
+.about-me {
+  padding-bottom: 209px;
+  background-image: url(img/img-about-me.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.about-me h1 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 4.5em;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: var(--orange);
+  margin: 22px 0;
+}
+
+.about-me p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 50;
+  font-size: 1em;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin: 0 0 24px 0;
+}
+
+.button-about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41.5vw;
+  height: 48px;
+  background: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.button-about-me a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: white;
+}
+
+.separator2 {
+  background: white;
+  width: 100%;
+  height: 1px;
+  margin: 22px 0 92px 0;
+}
+
+.lfs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.titles {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 44px;
+  color: white;
+  margin: 44px 0 44px 0;
+  list-style: none;
+}
+
+#languages::before {
+  content: url(img/diamond-icon.png);
+}
+
+#frameworks::before {
+  content: url(img/rectangle-icon.png);
+}
+
+#skills::before {
+  content: url(img/circle-icon.png);
+}
+
+.inner-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subcategories {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  line-height: 42.67px;
+  color: white;
+}
+
+/* Checkbox Function */
+#menu:checked ~ ul {
+  left: 0;
+}
+
+#menu:checked ~ .hamburger {
+  z-index: 1;
 }
 
 /* Pop up window */
@@ -144,13 +406,67 @@ p {
   font-family: 'Inter', sans-serif;
 }
 
-/* Checkbox Function */
-#menu:checked ~ ul {
-  left: 0;
+/* Button Function Main Project */
+.features-main:hover {
+  background: rgba(0, 0, 0, 0.05);
 }
 
-#menu:checked ~ .hamburger {
-  z-index: 1;
+.button-main-project:hover {
+  background: #fef6e3;
+}
+
+.button-main-project:hover > a {
+  color: var(--orange);
+}
+
+.button-main-project:active {
+  background: #e05304;
+}
+
+.button-main-project:active > a {
+  color: #f4f1f0;
+}
+
+/* Button Functions Projects */
+.features:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.features:active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.button-projects:hover {
+  background: #fef6e3;
+}
+
+.button-projects:hover > a {
+  color: var(--orange);
+}
+
+.button-projects:active {
+  background: #e05304;
+}
+
+.button-projects:active > a {
+  color: #f4f1f0;
+}
+
+/* Button Function About Me */
+.button-about-me:hover {
+  background: #fef6e3;
+}
+
+.button-about-me:hover > a {
+  color: var(--orange);
+}
+
+.button-about-me:active {
+  background: #e05304;
+}
+
+.button-about-me:active > a {
+  color: #f4f1f0;
 }
 
 /*  Desktop code previously made by mistake. (can be useful later)

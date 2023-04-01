@@ -56,13 +56,14 @@
 - **GitHub Workflow**
 - **HTML & CSS**
 - **Flexbox**
+- **Grid**
 - **Mobile Layout**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://htmlpreview.github.io/?https://github.com/MasterLeiva/Portfolio/blob/master/portfolio.html)
+- [Live Demo Link](https://htmlpreview.github.io/?https://github.com/MasterLeiva/Portfolio/blob/mobile-first/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +114,7 @@ N/A
 
 > More coming soon:
 - [ ] **Desktop Support**
-- [ ] **CSS Grid**
+- [ ] **Contact Me Section**
 - [ ] **Javascript Integration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
