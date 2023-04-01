@@ -280,8 +280,6 @@ nav {
   color: white;
 }
 
-<<<<<<< Updated upstream
-=======
 /* Button Functions Projects */
 .features:hover {
   background: rgba(255, 255, 255, 0.12);
@@ -442,7 +440,6 @@ nav {
   z-index: 1;
 }
 
->>>>>>> Stashed changes
 /* Pop up window */
 .links {
   position: fixed;
