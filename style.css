@@ -193,27 +193,6 @@ nav {
   color: white;
 }
 
-/* Button Function Main Project */
-.features-main:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
-
-.button-main-project:hover {
-  background: #fef6e3;
-}
-
-.button-main-project:hover > a {
-  color: var(--orange);
-}
-
-.button-main-project:active {
-  background: #e05304;
-}
-
-.button-main-project:active > a {
-  color: #f4f1f0;
-}
-
 /* Work Section - projects */
 .projects {
   background-image: url(img/projects-img.png);
@@ -427,13 +406,34 @@ nav {
   font-family: 'Inter', sans-serif;
 }
 
+/* Button Function Main Project */
+.features-main:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.button-main-project:hover {
+  background: #fef6e3;
+}
+
+.button-main-project:hover > a {
+  color: var(--orange);
+}
+
+.button-main-project:active {
+  background: #e05304;
+}
+
+.button-main-project:active > a {
+  color: #f4f1f0;
+}
+
 /* Button Functions Projects */
 .features:hover {
   background: rgba(255, 255, 255, 0.12);
 }
 
 .features:active {
-  background: rgba(255, 255, 255, 0.30);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .button-projects:hover {
