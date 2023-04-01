@@ -56,6 +56,7 @@
 - **GitHub Workflow**
 - **HTML & CSS**
 - **Flexbox**
+- **Grid**
 - **Mobile Layout**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -113,7 +114,7 @@ N/A
 
 > More coming soon:
 - [ ] **Desktop Support**
-- [ ] **CSS Grid**
+- [ ] **Contact Me Section**
 - [ ] **Javascript Integration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
