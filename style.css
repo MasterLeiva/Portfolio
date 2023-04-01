@@ -115,15 +115,6 @@ nav {
   height: 24px;
 }
 
-/* Checkbox Function */
-#menu:checked ~ ul {
-  left: 0;
-}
-
-#menu:checked ~ .hamburger {
-  z-index: 1;
-}
-
 /* Work Section */
 .work-section {
   display: grid;
