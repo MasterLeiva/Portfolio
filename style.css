@@ -551,22 +551,23 @@ form {
   -webkit-text-fill-color: #ff6b00;
 }
 
+li {
+  list-style-type: none;
+}
+
 .button-form:active {
   background: #e25e00;
   -webkit-text-fill-color: white;
 }
 
-/*  Desktop code previously made by mistake. (can be useful later)
-
-.links {
+.social-links-footer {
   display: flex;
-  list-style: none;
-  width: 30vw;
-  height: 100%;
-  margin: 0;
-  align-items: center;
-  padding: 0;
-  justify-content: space-evenly;
+  border-top: 1px solid grey;
+  padding-top: 20px;
+  justify-content: center;
 }
 
-*/
+.icon-footer {
+  padding: 10px;
+}
+
