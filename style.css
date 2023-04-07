@@ -28,6 +28,11 @@ header .logo {
   font-size: 18px;
   font-weight: 700;
   color: white;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: rotate(4deg);
 }
 
 a {
