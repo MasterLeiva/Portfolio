@@ -487,6 +487,10 @@ form {
   font-family: 'Inter', sans-serif;
 }
 
+.links li a:hover {
+  color: #ffb116;
+}
+
 /* Button Function Main Project */
 .features-main:hover {
   background: rgba(0, 0, 0, 0.05);
