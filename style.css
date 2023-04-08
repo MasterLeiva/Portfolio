@@ -28,6 +28,11 @@ header .logo {
   font-size: 18px;
   font-weight: 700;
   color: white;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: rotate(4deg);
 }
 
 a {
@@ -493,6 +498,10 @@ li {
   font-size: 32px;
   font-weight: 700;
   font-family: 'Inter', sans-serif;
+}
+
+.links li a:hover {
+  color: #ffb116;
 }
 
 /* Button Function Main Project */
