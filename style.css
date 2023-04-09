@@ -360,6 +360,35 @@ nav {
     width: 124px;
     margin-top: 24px;
   }
+
+  .projects {
+    justify-content: center;
+  }
+
+  .button-projects {
+    display: none;
+  }
+
+  .projects:hover {
+    background-image: url(img/project-background-normal.png);
+    justify-content: end;
+  }
+
+  .projects:hover > h3 {
+    display: none;
+  }
+
+  .projects:hover > p {
+    display: none;
+  }
+
+  .projects:hover > .project-features {
+    display: none;
+  }
+
+  .projects:hover > .button-projects {
+    display: flex;
+  }
 }
 
 /* Contact me section */
