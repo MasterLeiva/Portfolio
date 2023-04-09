@@ -241,6 +241,27 @@ nav {
   color: white;
 }
 
+/* Button Function Main Project */
+.features-main:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.button-main-project:hover {
+  background: #fef6e3;
+}
+
+.button-main-project:hover > a {
+  color: var(--orange);
+}
+
+.button-main-project:active {
+  background: #e05304;
+}
+
+.button-main-project:active > a {
+  color: #f4f1f0;
+}
+
 /* Work Section - projects */
 .projects {
   background-image: url(img/projects-img.png);
@@ -310,6 +331,7 @@ nav {
   color: white;
 }
 
+<<<<<<< Updated upstream
 /* Work Section Media Query */
 @media (min-width: 768px) {
   .work-section {
@@ -471,6 +493,31 @@ li {
   .button-form {
     width: 122px;
   }
+=======
+/* Button Functions Projects */
+.features:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.features:active {
+  background: rgba(255, 255, 255, 0.30);
+}
+
+.button-projects:hover {
+  background: #fef6e3;
+}
+
+.button-projects:hover > a {
+  color: var(--orange);
+}
+
+.button-projects:active {
+  background: #e05304;
+}
+
+.button-projects:active > a {
+  color: #f4f1f0;
+>>>>>>> Stashed changes
 }
 
 /* About me Section */
@@ -546,12 +593,15 @@ li {
   padding: 0;
 }
 
+<<<<<<< Updated upstream
 .language-separator {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+=======
+>>>>>>> Stashed changes
 .titles {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -593,6 +643,7 @@ li {
   color: white;
 }
 
+<<<<<<< Updated upstream
 /* About Me Desktop Support */
 @media (min-width: 768px) {
   .button-about-me {
@@ -622,6 +673,23 @@ li {
     justify-content: space-around;
     margin-bottom: 100px;
   }
+=======
+/* Button Function About Me */
+.button-about-me:hover {
+  background: #fef6e3;
+}
+
+.button-about-me:hover > a {
+  color: var(--orange);
+}
+
+.button-about-me:active {
+  background: #e05304;
+}
+
+.button-about-me:active > a {
+  color: #f4f1f0;
+>>>>>>> Stashed changes
 }
 
 /* Checkbox Function */
