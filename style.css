@@ -78,10 +78,6 @@ nav {
   background-position-y: 110%;
 }
 
-.headline-content {
-  max-width: 480px;
-}
-
 .headline h1 {
   font-family: 'Crete Round', serif;
   font-size: 3.8em;
@@ -135,6 +131,10 @@ nav {
     background-image: none;
   }
 
+  .headline-content {
+    max-width: 480px;
+  }
+
   .social-links {
     order: -1;
     flex-direction: column;
@@ -154,6 +154,12 @@ nav {
     background-size: contain;
     background-position-x: right;
     background-position-y: bottom;
+  }
+}
+
+@media (min-width: 1080px) {
+  .headline-content {
+    max-width: 34vw;
   }
 }
 
