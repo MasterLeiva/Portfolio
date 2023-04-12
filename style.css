@@ -31,6 +31,19 @@ header .logo {
   cursor: pointer;
 }
 
+#logo {
+  text-decoration: none;
+  color: #fff;
+}
+
+#logo:hover {
+  color: #ffb116;
+}
+
+#logo:active {
+  color: #e25e00;
+}
+
 .logo:hover {
   transform: rotate(4deg);
 }
@@ -171,7 +184,7 @@ nav {
   row-gap: 34px;
 }
 
-.work-section h1 {
+.work-section h2 {
   font-family: 'Crete Round', serif;
   text-align: center;
   font-size: 2.4em;
@@ -197,7 +210,7 @@ nav {
   margin-bottom: 10px;
 }
 
-.main-project h2 {
+.main-project h3 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   line-height: 44px;
@@ -217,7 +230,7 @@ nav {
   display: flex;
   list-style: none;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0;
   margin: 12px 0;
 }
@@ -236,9 +249,6 @@ nav {
   justify-content: center;
   align-items: center;
   border: 1px solid var(--orange);
-}
-
-.button-main-project a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   size: 1.1em;
@@ -305,9 +315,6 @@ nav {
   height: 48px;
   background: var(--orange);
   border: 1px solid var(--orange);
-}
-
-.button-projects a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 1.05em;
@@ -323,7 +330,7 @@ nav {
     padding: 19.5vh 9.8vw;
   }
 
-  .work-section h1 {
+  .work-section h2 {
     grid-area: 1 / 1 / 2 / 2;
     display: flex;
     align-items: center;
@@ -405,7 +412,7 @@ nav {
   padding: 0 6.5vw 78px 6.5vw;
 }
 
-.contact-section h1 {
+.contact-section h2 {
   font-family: 'Inter', serif;
   font-weight: 1000;
   font-size: 2.3em;
@@ -420,6 +427,10 @@ form {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.labels {
+  display: none;
 }
 
 .input-container {
@@ -493,7 +504,7 @@ li {
     padding-top: 120px;
   }
 
-  .contact-section h1 {
+  .contact-section h2 {
     text-align: start;
     margin-right: 35px;
     margin-bottom: 120px;
@@ -529,7 +540,7 @@ li {
   max-width: 450px;
 }
 
-.about-me h1 {
+.about-me h2 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 4.5em;
@@ -556,9 +567,6 @@ li {
   height: 48px;
   background: var(--orange);
   border: 1px solid var(--orange);
-}
-
-.button-about-me a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 1.05em;
@@ -639,6 +647,7 @@ li {
     height: 350px;
     background-image: url(img/about-me-image.png);
     background-repeat: no-repeat;
+    background-size: contain;
     background-position-x: right;
     background-position-y: center;
   }
@@ -737,17 +746,11 @@ li {
 
 .button-main-project:hover {
   background: #fef6e3;
-}
-
-.button-main-project:hover > a {
   color: var(--orange);
 }
 
 .button-main-project:active {
   background: #e05304;
-}
-
-.button-main-project:active > a {
   color: #f4f1f0;
 }
 
@@ -762,34 +765,22 @@ li {
 
 .button-projects:hover {
   background: #fef6e3;
-}
-
-.button-projects:hover > a {
   color: var(--orange);
 }
 
 .button-projects:active {
   background: #e05304;
-}
-
-.button-projects:active > a {
   color: #f4f1f0;
 }
 
 /* Button Function About Me */
 .button-about-me:hover {
   background: #fef6e3;
-}
-
-.button-about-me:hover > a {
   color: var(--orange);
 }
 
 .button-about-me:active {
   background: #e05304;
-}
-
-.button-about-me:active > a {
   color: #f4f1f0;
 }
 
