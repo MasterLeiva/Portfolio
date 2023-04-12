@@ -31,6 +31,19 @@ header .logo {
   cursor: pointer;
 }
 
+#logo {
+  text-decoration: none;
+  color: #fff;
+}
+
+#logo:hover {
+  color: #ffb116;
+}
+
+#logo:active {
+  color: #e25e00;
+}
+
 .logo:hover {
   transform: rotate(4deg);
 }
@@ -171,7 +184,7 @@ nav {
   row-gap: 34px;
 }
 
-.work-section h1 {
+.work-section h2 {
   font-family: 'Crete Round', serif;
   text-align: center;
   font-size: 2.4em;
@@ -317,7 +330,7 @@ nav {
     padding: 19.5vh 9.8vw;
   }
 
-  .work-section h1 {
+  .work-section h2 {
     grid-area: 1 / 1 / 2 / 2;
     display: flex;
     align-items: center;
@@ -399,7 +412,7 @@ nav {
   padding: 0 6.5vw 78px 6.5vw;
 }
 
-.contact-section h1 {
+.contact-section h2 {
   font-family: 'Inter', serif;
   font-weight: 1000;
   font-size: 2.3em;
@@ -491,7 +504,7 @@ li {
     padding-top: 120px;
   }
 
-  .contact-section h1 {
+  .contact-section h2 {
     text-align: start;
     margin-right: 35px;
     margin-bottom: 120px;
@@ -527,7 +540,7 @@ li {
   max-width: 450px;
 }
 
-.about-me h1 {
+.about-me h2 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 4.5em;
