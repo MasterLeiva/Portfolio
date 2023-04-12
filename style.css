@@ -422,6 +422,10 @@ form {
   width: 100%;
 }
 
+.labels {
+  display: none;
+}
+
 .input-container {
   width: 100%;
   border: none;
@@ -639,6 +643,7 @@ li {
     height: 350px;
     background-image: url(img/about-me-image.png);
     background-repeat: no-repeat;
+    background-size: contain;
     background-position-x: right;
     background-position-y: center;
   }
