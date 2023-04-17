@@ -683,14 +683,24 @@ li {
   display: flex;
   flex-direction: column;
   width: calc(100% - 40px);
-  height: calc(100% - 8vh);
+  height: 100%;
   background: #3c3a39;
   list-style: none;
   left: -100%;
-  top: 8vh;
+  top: 0;
   padding: 20px;
   margin: 0;
   transition: all 0.5s;
+}
+
+.close-button {
+  width: fit-content;
+}
+
+.close-button img {
+  float: right;
+  width: auto;
+  height: 50px;
 }
 
 .links li {
