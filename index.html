@@ -16,16 +16,12 @@
     <header>
       <div class="logo"><a id="logo" href="#">My Logo</a></div>
       <nav>
-        <input type="checkbox" id="menu">
-        <label for="menu" class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </label>
+        <button type="button" class="hamburger" id="openBtn"><img src="img/hamburger.png" alt="Menu icon"></button>
         <ul class="links">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <div class="close-button"><button id="close"><img src="img/close.png" alt="close button"/></button></div>
+          <li><a href="#Portfolio" id="linkNav-port">Portfolio</a></li>
+          <li><a href="#About" id="linkNav-about">About</a></li>
+          <li><a href="#Contact" id="linkNav-cont">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -56,7 +52,7 @@ don’t hesitate to contact me.
     </section>
 
     <!-- Work Section-->
-    <section class="work-section">
+    <section class="work-section" id="Portfolio">
       <h2>My Recent Works</h2>
       <div class="separator"></div>
 
@@ -145,7 +141,7 @@ don’t hesitate to contact me.
     </section>
 
     <!-- About Myself section -->
-    <section class="about-myself">
+    <section class="about-myself" id="About">
       <div class="about-me">
         <div class="about-me-content">
           <h2>About me</h2>
@@ -188,7 +184,7 @@ don’t hesitate to contact me.
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section class="contact-section" id="Contact">
       <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
       <form action="https://formspree.io/f/xzbqkpbw" method="post">
         <input type="text" class="input-container" placeholder="Full name" maxlength="30" name="fullname" id="fullname" required>
@@ -209,5 +205,6 @@ don’t hesitate to contact me.
         <li><a rel="noopener"><img src="img/Icon-Medium-footer.png" alt="M icon" class="icon-footer"/></a></li>
       </ul>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
