@@ -1,9 +1,9 @@
-let openBtn = document.querySelector('#openBtn');
-let closeBtn = document.querySelector('#close');
-let linkNavPort = document.querySelector('#linkNav-port');
-let linkNavAbout = document.querySelector('#linkNav-about');
-let linkNavCont = document.querySelector('#linkNav-cont');
-let windowUl = document.querySelector('.links');
+const openBtn = document.querySelector('#openBtn');
+const closeBtn = document.querySelector('#close');
+const linkNavPort = document.querySelector('#linkNav-port');
+const linkNavAbout = document.querySelector('#linkNav-about');
+const linkNavCont = document.querySelector('#linkNav-cont');
+const windowUl = document.querySelector('.links');
 
 function openWindow() {
   windowUl.classList.add('show');
