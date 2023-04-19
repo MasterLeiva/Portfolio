@@ -54,10 +54,11 @@
 
 - **Linter Usage**
 - **GitHub Workflow**
-- **HTML & CSS**
+- **HTML, CSS and JS**
 - **Flexbox**
 - **Grid**
-- **Mobile Layout**
+- **Responsive design**
+- **Accessibility support**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,18 +105,21 @@ N/A
 
 > This is a personal project.
 
-👤 **Author1**
+👤 **David Leiva**
 
 - GitHub: [@MasterLeiva](https://github.com/MasterLeiva)
 - Twitter: [@DavidLeiva111](https://twitter.com/DavidLeiva111)
 - LinkedIn: [@1259221-d-leiva](https://linkedin.com/in/1259221-d-leiva)
 
+👤 **Luis**
+
+- GitHub: [@baezluise](https://github.com/baezluise)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 > More coming soon:
-- [ ] **Desktop Support**
-- [ ] **Contact Me Section**
-- [ ] **Javascript Integration**
+- [ ] **Pop up window**
+- [ ] **Contact form validations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
