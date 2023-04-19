@@ -52,28 +52,20 @@ a {
   cursor: pointer;
 }
 
-nav {
-  height: 100%;
-}
-
 /* Menu bar design */
 .hamburger {
-  display: block;
   cursor: pointer;
+  
+  background: none;
+  border: none;
   margin-right: 10px;
-  margin-top: 2.4vh;
+  margin-top: 1vh;
+  padding: 0;
 }
 
-.line {
+.hamburger img {
   width: 6vw;
-  height: 3px;
-  background: white;
-  margin: 5px;
-  border-radius: 4px;
-}
-
-#menu {
-  display: none;
+  height: auto;
 }
 
 /* Headline Design */
@@ -167,6 +159,10 @@ nav {
     background-size: contain;
     background-position-x: right;
     background-position-y: bottom;
+  }
+
+  #close {
+    display: none;
   }
 }
 
@@ -669,12 +665,12 @@ li {
 }
 
 /* Checkbox Function */
-#menu:checked ~ ul {
-  left: 0;
+header ul {
+  left: -100%;
 }
 
-#menu:checked ~ .hamburger {
-  z-index: 1;
+.show {
+  left: 0;
 }
 
 /* Pop up window */
@@ -686,7 +682,6 @@ li {
   height: 100%;
   background: #3c3a39;
   list-style: none;
-  left: -100%;
   top: 0;
   padding: 20px;
   margin: 0;
@@ -694,11 +689,18 @@ li {
 }
 
 .close-button {
-  width: fit-content;
+  display: flex;
+  justify-content: end;
+}
+
+#close {
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
 }
 
 .close-button img {
-  float: right;
   width: auto;
   height: 50px;
 }
@@ -726,6 +728,7 @@ li {
     display: flex;
     flex-direction: row;
     list-style: none;
+    background-color: var(--grey);
     width: 30vw;
     height: 100%;
     margin: 0;
