@@ -1,9 +1,9 @@
-var openBtn = document.querySelector('#openBtn');
-var closeBtn = document.querySelector('#close');
-var linkNavPort = document.querySelector('#linkNav-port');
-var linkNavAbout = document.querySelector('#linkNav-about');
-var linkNavCont = document.querySelector('#linkNav-cont');
-var windowUl = document.querySelector('.links');
+let openBtn = document.querySelector('#openBtn');
+let closeBtn = document.querySelector('#close');
+let linkNavPort = document.querySelector('#linkNav-port');
+let linkNavAbout = document.querySelector('#linkNav-about');
+let linkNavCont = document.querySelector('#linkNav-cont');
+let windowUl = document.querySelector('.links');
 
 function openWindow() {
   windowUl.classList.add('show');

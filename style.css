@@ -246,7 +246,7 @@ a {
   border: 1px solid var(--orange);
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  size: 1.1em;
+  font-size: 1.1em;
   line-height: 24px;
   letter-spacing: 3%;
   color: white;
@@ -258,7 +258,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 386;
+  height: 386px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -276,7 +276,7 @@ a {
 .projects p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  size: 1em;
+  font-size: 1em;
   line-height: 24px;
   margin: 0 13px 14px 13px;
   color: white;
@@ -452,7 +452,7 @@ form {
   font-family: 'Inter', serif;
   font-weight: 800;
   font-style: italic;
-  size: 1em;
+  font-size: 1em;
   line-height: 24px;
 }
 
@@ -469,7 +469,7 @@ form {
   padding: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  size: 1.1em;
+  font-size: 1.1em;
   line-height: 24px;
   letter-spacing: 6%;
   color: white;
@@ -510,7 +510,7 @@ li {
   }
 
   .button-form {
-    width: 122px;
+    width: 135px;
   }
 }
 
@@ -650,10 +650,6 @@ li {
   .about-me {
     background-image: none;
     padding-bottom: 120px;
-  }
-
-  .about-me-content {
-    height: fit-content;
   }
 
   .lfs {
